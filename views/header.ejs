@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Teambition官网</title>
+<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+<header class="tb-header transprant clear">
+  <a title="主页" href="/" class="tb-logo"></a>
+  <span class="none">菜单</span>
+  <nav class="rt">
+    <span><a title="功能" href="/function">功能</a></span>
+    <span><a title="价格" href="/price">价格</a></span>
+    <span><a title="下载" href="/download">下载</a></span>
+    <span><a title="解决方案" href="/solution">解决方案</a></span>
+    <% if (user) { %>
+    <span><a title="博客" href="/blog">博客</a></span>
+    <span>
+          <a title="用户" href="JavaScript:void()">用户名</a>
+          <a title="登出" href="/logout">登出</a>
+    </span>
+    <% } else { %>
+    <span><a title="登录" href="/login" class="logoin-btn">登录</a></span>
+    <span><a title="注册" href="/reg" class="reg-btn">免费注册</a></span>
+    <% } %>
+  </nav>
+</header>
+
