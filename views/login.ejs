@@ -1,6 +1,12 @@
-
-<form method="post">
-  <input type="text" name="name" placeholder="用户名"/><br />
-  <input type="password" name="password" placeholder="密码"/><br />
-    <input type="submit" value="登录"/>
-</form>
+<%- include header %>
+<section class="tb-input-room">
+  <figure></figure>
+  <form method="post">
+    <input class="tb-input" type="text" name="name" placeholder="用户名"/><br />
+    <input class="tb-input" type="password" name="password" placeholder="密码"/><br />
+    <input class="tb-input tb-blue-input" type="submit" value="登录"/>
+  </form>
+</section>
+<script>
+  document.getElementsByTagName("header")[0].style.opacity=0;
+</script>

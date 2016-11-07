@@ -534,6 +534,26 @@ a.detail-btn:hover{
     padding:15px 10px;
 
 }
+/*login-register*/
+.tb-input-room{
+    width:30%;
+    padding:150px 35%;
+}
+.tb-input{
+    width:100%;
+    font-size:20px;
+    padding:15px;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    border:1px solid rgba(200,200,200,0.8);
+    border-radius: 3px;
+
+}
+.tb-blue-input{
+    background-color:#039fe5 ;
+    color:white;
+    cursor: pointer;
+}
 /*footer-style*/
 footer{
     width:100%;
